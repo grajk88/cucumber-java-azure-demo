@@ -1,0 +1,80 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-20T20:54:27.330Z",
+        "line": 5,
+        "name": "Successful Login",
+        "description": "",
+        "id": "login-into-zero-web-security-application;successful-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2459761000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am in the login page",
+            "match": {
+              "location": "steps.LoginSteps.i_am_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1421061000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter valid credentials",
+            "match": {
+              "location": "steps.LoginSteps.i_enter_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 375620000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be able to login successfully",
+            "match": {
+              "location": "steps.LoginSteps.i_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login into Zero Web Security application",
+    "description": "",
+    "id": "login-into-zero-web-security-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
